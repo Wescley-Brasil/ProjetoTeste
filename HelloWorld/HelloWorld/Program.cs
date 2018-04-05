@@ -8,8 +8,14 @@ namespace HelloWorld
 {
     class Program
     {
+
+        static void EscreveNaTela()
+        {
+            Console.WriteLine("Primeiro teste no GitHub");
+        }
         static void Main(string[] args)
         {
+            EscreveNaTela();
         }
     }
 }
