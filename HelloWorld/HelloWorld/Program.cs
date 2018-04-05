@@ -9,13 +9,13 @@ namespace HelloWorld
     class Program
     {
 
-        static void EscreveNaTela()
+        static void EscreveNaTela(string text)
         {
-            Console.WriteLine("Primeiro teste no GitHub");
+            Console.WriteLine(text);
         }
         static void Main(string[] args)
         {
-            EscreveNaTela();
+            EscreveNaTela("Primeiro teste GitHub");
         }
     }
 }
